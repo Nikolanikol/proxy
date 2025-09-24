@@ -1,10 +1,9 @@
-import express from 'express';
-import fetch from 'node-fetch';
 
+import express, { Request, Response } from 'express';
 const app = express();
 const PORT = process.env.PORT || 7000;
 
-app.get('/proxy', async (req, res) => {
+app.get('/proxy', async (req: Request, res: Response)  => {
   const targetUrl = req.query.url as string;
 
   if (!targetUrl) {

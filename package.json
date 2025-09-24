@@ -1,7 +1,7 @@
 {
     "scripts": {
-        "start": " index.js",
-        "build": "nodemon index.ts"
+        "start": "nodemon index.js",
+        "build": "nodemon index.js"
     },
     "dependencies": {
         "express": "^5.1.0",

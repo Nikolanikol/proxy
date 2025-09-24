@@ -1,11 +1,12 @@
 {
     "scripts": {
-        "start": "node dist/index.js",
-        "build": "tsc"
+        "start": " index.js",
+        "build": "nodemon index.ts"
     },
     "dependencies": {
         "express": "^5.1.0",
-        "node-fetch": "^2.7.0"
+        "node-fetch": "^2.7.0",
+        "nodemon": "^3.1.10"
     },
     "devDependencies": {
         "@types/express": "^5.0.3",
